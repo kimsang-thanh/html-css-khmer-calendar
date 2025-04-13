@@ -8,6 +8,7 @@
   --green-color: #189718;
   --heading-font-size: 1.6rem;
   --font-weight: 500;
+  --asset-color: #e1e1e1;
 }
 
 * {
@@ -81,7 +82,7 @@ th {
 
 tr:nth-child(1) td:not(:last-child) {
   color: #a3a3a3;
-  background-color: #e1e1e1;
+  background-color: var(--asset-color);
 }
 
 tr:nth-child(1) td:nth-child(2) span {
@@ -100,7 +101,7 @@ tr .date-decoration {
 
 tr:nth-child(6) td:not(:first-child, :nth-child(2)) {
   color: #a3a3a3;
-  background-color: #e1e1e1;
+  background-color: var(--asset-color);
 }
 
 td {
@@ -115,6 +116,10 @@ td span {
 
 td span:not(:last-child) {
   margin-bottom: 1rem;
+}
+
+td:hover {
+  background-color: var(--asset-color);
 }
 
 /* ///// section event ///// */
