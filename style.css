@@ -11,7 +11,9 @@
   --asset-color: #e1e1e1;
 }
 
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
